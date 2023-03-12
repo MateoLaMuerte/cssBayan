@@ -5,6 +5,6 @@ img {
     cursor: pointer;
     display: none;
 }
-.meme:checked ~ img {
+.button:checked ~ img {
     display: block;
 }
