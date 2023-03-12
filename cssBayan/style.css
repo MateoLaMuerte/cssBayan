@@ -41,3 +41,9 @@ body {
 .memes:hover > label {
     color: rgb(105, 14, 79);
 }
+label::before {
+    transition: 0.3s;
+}
+input[type=radio]:checked ~ label::before {
+    opacity: 0;
+}
