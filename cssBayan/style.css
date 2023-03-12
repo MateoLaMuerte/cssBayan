@@ -1,18 +1,43 @@
 label {
     cursor: pointer;
+    display: block;
+    transition: 0.5s;
 }
 img {
     cursor: pointer;
     display: none;
+    transition: 1s;
+    width: 40%;
+    height: 40%;
+    margin: auto;
 }
 .button:checked ~ img {
     display: block;
 }
 .button:hover ~ img {
     display: block;
-    transition-duration: 3s;
 }
 img:hover {
     display: block;
-    transition-duration: 3s;
+}
+body {
+    background-color: bisque;
+    font: italic 1.2em "Fira Sans", serif;
+    color: crimson;
+}
+.button {
+    opacity: 0;
+}
+.bayan {
+    margin: 0 10%;
+}
+.memes:hover > img {
+    display: block;
+}
+.memes {
+    cursor: pointer;
+    margin: 1% 0;
+}
+.memes:hover > label {
+    color: rgb(105, 14, 79);
 }
