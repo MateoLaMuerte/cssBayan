@@ -8,3 +8,11 @@ img {
 .button:checked ~ img {
     display: block;
 }
+.button:hover ~ img {
+    display: block;
+    transition-duration: 3s;
+}
+img:hover {
+    display: block;
+    transition-duration: 3s;
+}
