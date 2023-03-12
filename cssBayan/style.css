@@ -1,0 +1,10 @@
+label {
+    cursor: pointer;
+}
+img {
+    cursor: pointer;
+    display: none;
+}
+.meme:checked ~ img {
+    display: block;
+}
